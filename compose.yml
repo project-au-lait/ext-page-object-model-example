@@ -1,0 +1,16 @@
+services:
+  its:
+    image: openproject/openproject:15
+    environment:
+      OPENPROJECT_SECRET_KEY_BASE: secret
+      OPENPROJECT_HOST__NAME: localhost:${ITS_PORT}
+      OPENPROJECT_HTTPS: false
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost/health_checks/default/"]
+        interval: 30s
+        retries: 3
+        start_period: 5s
+        start_interval: 1s
+        timeout: 10s
+    ports:
+      - ${ITS_PORT}:80

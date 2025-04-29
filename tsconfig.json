@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    "noEmit": true,
+    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "@arch/*": ["tests/arch/*"],
+      "@facades/*": ["tests/facades/*"],
+      "@factories/*": ["tests/factories/*"],
+      "@models/*": ["tests/models/*"],
+      "@pages/*": ["tests/pages/*"]
+    }
+  }
+}

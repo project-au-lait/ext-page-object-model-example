@@ -1,0 +1,17 @@
+{
+  "login": "ログイン",
+  "username": "ユーザー名",
+  "password": "パスワード",
+  "login-form input[name=\"login\"]": "ログインボタン",
+  "top": "トップ",
+  "projects-menu": "プロジェクトメニュー",
+  "a[data-project-id=\"1\"]": "デモプロジェクト",
+  "project": "プロジェクト",
+  "main-menu-work-packages": "Work Packagesメニュー",
+  "div.wp-create-button > button": "作成ボタン",
+  "a[aria-label=\"Task\"]": "タスクリンク",
+  "task-input": "タスク入力",
+  "wp-new-inline-edit--field-subject": "題名",
+  "wp-new-inline-edit--field-priority": "優先度",
+  "work-packages--edit-actions-save": "保存ボタン"
+}

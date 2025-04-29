@@ -1,0 +1,17 @@
+{
+  "login": "Login",
+  "username": "Username",
+  "password": "Password",
+  "login-form input[name=\"login\"]": "Login Button",
+  "top": "Top",
+  "projects-menu": "Projects Menu",
+  "a[data-project-id=\"1\"]": "Demo Project",
+  "project": "Project",
+  "main-menu-work-packages": "Work Packages Menu",
+  "div.wp-create-button > button": "Create Button",
+  "a[aria-label=\"Task\"]": "Task Link",
+  "task-input": "Task Input",
+  "wp-new-inline-edit--field-subject": "Subject",
+  "wp-new-inline-edit--field-priority": "Priority",
+  "work-packages--edit-actions-save": "Save Button"
+}
