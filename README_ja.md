@@ -1,6 +1,6 @@
 # Extended Page Object Model Example
 
-このリポジトリはend-to-endテストのデザインパターンであるExtended Page Object Modelの実装例です。このリポジトリにはパターンを適用したテストコードと、テスト対象として使用する[OpenProject](https://www.openproject.org/)のDocker composeファイルが含まれます。Extended Page Object Modelの詳しい説明は[Project Au Laitのブログ記事]()を参照してください。
+このリポジトリはend-to-endテストのデザインパターンであるExtended Page Object Modelの実装例です。このリポジトリにはパターンを適用したテストコードと、テスト対象として使用する[OpenProject](https://www.openproject.org/)のDocker composeファイルが含まれます。Extended Page Object Modelの詳しい説明は[Project Au Laitのブログ記事](https://zenn.dev/prj_au_lait_jp/articles/2db136bdb2919e)を参照してください。
 
 ## 必要なソフトウェア
 

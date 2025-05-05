@@ -1,6 +1,6 @@
 # Extended Page Object Model Example
 
-This repository is an implementation example of the Extended Page Object Model, a design pattern for end-to-end testing. It includes test code that applies the pattern, as well as a Docker Compose file for [OpenProject](https://www.openproject.org/), which serves as the test target. For a detailed explanation of the Extended Page Object Model, please refer to the [Project Au Lait blog article]().
+This repository is an implementation example of the Extended Page Object Model, a design pattern for end-to-end testing. It includes test code that applies the pattern, as well as a Docker Compose file for [OpenProject](https://www.openproject.org/), which serves as the test target. For a detailed explanation of the Extended Page Object Model, please refer to the [Project Au Lait blog article](https://dev.to/project_au_lait/design-pattern-for-playwright-end-to-end-testing-1idc).
 
 ## Required Software
 
