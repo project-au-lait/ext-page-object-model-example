@@ -6,7 +6,7 @@ export default class TopPageElement extends BasePageElement {
   }
 
   async open() {
-    await this.page.goto('/');
+    await super.open('/');
   }
 
   async clickProjectMenu() {

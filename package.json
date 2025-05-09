@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dry-run": "cross-env DRY_RUN=true playwright test --reporter=list"
+    "dry-run": "cross-env DRY_RUN=true playwright test --reporter=list --workers=1"
   },
   "keywords": [],
   "author": "",
