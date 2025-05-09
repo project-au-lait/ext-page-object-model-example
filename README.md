@@ -38,7 +38,7 @@ pnpm playwright test task.spec.ts --headed --trace on
 
 You can view the results of the above test run in the report below:
 
-* [Playwright Report + Trace Viewer](https://aulait.dev/ext-page-object-model-example/ja/)
+* [Playwright Report + Trace Viewer](https://aulait.dev/ext-page-object-model-example/en/)
 
 For details on how to run Playwright tests, refer to the [official documentation](https://playwright.dev/docs/running-tests).
 
