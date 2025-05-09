@@ -28,10 +28,24 @@ pnpm playwright test first-login --headed
 
 After running the commands, you can log in to OpenProject at URL: http://localhost:8080 with username: `admin` and password: `newadminpass`.
 
-An implementation example of the test scenario is available in `tests/task.spec.ts`. To execute this scenario, run the following command:
+## Running Tests
+
+An example test scenario is implemented in `tests/task.spec.ts`. To execute this scenario, run:
 
 ```sh
-pnpm playwright test task.spec.ts --headed
+pnpm playwright test task.spec.ts --headed --trace on
+```
+
+You can view the results of the above test run in the report below:
+
+* [Playwright Report + Trace Viewer](https://aulait.dev/ext-page-object-model-example/ja/)
+
+For details on how to run Playwright tests, refer to the [official documentation](https://playwright.dev/docs/running-tests).
+
+To run the scenario in Dry Run mode, use:
+
+```sh
+pnpm dry-run task.spec.ts
 ```
 
 [[日本語](README_ja.md)]

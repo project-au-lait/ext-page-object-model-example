@@ -28,10 +28,24 @@ pnpm playwright test first-login
 
 コマンドの実行後は、URL: http://localhost:8080 username: admin、password: newadminpassでOpenProjectにログインできます。
 
+## 実行
+
 テストシナリオの実装例はtests/task.spec.tsです。このシナリオを実行するには以下のコマンドを実行します。
 
 ```sh
-pnpm playwright test task.spec.ts --headed
+pnpm playwright test task.spec.ts --headed --trace on
+```
+
+上記の実行結果のレポートは以下を参照してください。
+
+- [Playwright Report + Trace Viewer](https://aulait.dev/ext-page-object-model-example/ja/)
+
+Playwrightのテストの実行方法については[公式ドキュメント](https://playwright.dev/docs/running-tests)を参照してください。
+
+Dry Runモードでシナリオを実行するには以下のコマンドを実行します。
+
+```sh
+pnpm dry-run task.spec.ts
 ```
 
 [[English](README.md)]
